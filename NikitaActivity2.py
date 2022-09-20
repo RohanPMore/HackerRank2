@@ -7,7 +7,7 @@ for i in range(n):
     wordinput = str(input('Enter the word:  '))
     word = wordinput
     list.append(word)
-
+    
 def countingthe(words):
     from collections import Counter
     lst = [list[j] for j in range(n)]
